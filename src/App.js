@@ -24,6 +24,7 @@ import { BookReferencePage } from './pages/BookReferencePage';
 import { CourseObjectivePage } from './pages/CourseObjectivePage';
 import { CourseAssessmentPage } from './pages/CourseAssessmentPage';
 import SyllabusPage from "./pages/SyllabusPage";
+import { OutlineTablePage } from './pages/OutlineTablePage';
 
 
 function App() {
@@ -111,6 +112,7 @@ function App() {
                  <Route path='/curriculum' element={<CurriculumPage/>}/>
                  <Route path='/addcourse' element={<AddCoursePage/>}/>
                  <Route path='/syllabus' element={<SyllabusPage/>}/>
+                 <Route path='/table' element={<OutlineTablePage/>}/>
              </Routes>
          </PloPeoContext.Provider>
       </MissionPeoContext.Provider>
