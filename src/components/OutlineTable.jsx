@@ -4,7 +4,7 @@ import './Table.css';
 export const OutlineTable = () => {
   return (
     <div>
-      <table  className='table table-bordered table-light text-center' >
+      <table  className='table table-bordered text-center table-hover bg-dark'  >
         <thead className="thead-dark">
         <tr>
            <th rowSpan={5}>#</th>
