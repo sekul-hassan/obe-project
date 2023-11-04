@@ -2,6 +2,8 @@ import React from 'react'
 import { Sidebar } from '../components/Sidebar'
 import CourseAssessmentTable from '../components/CourseAssessmentTable'
 import OutlineTable from '../components/OutlineTable'
+import Coursecontoutline from '../components/Coursecontoutline'
+import Guidedlearning from '../components/Guidedlearning'
 
 export const OutlineTablePage = () => {
   return (
@@ -14,6 +16,8 @@ export const OutlineTablePage = () => {
           
         </div>
         <div className='col-sm-12 col-md-6 col-lg-10'>
+          <Coursecontoutline/>
+          <Guidedlearning/>
           <OutlineTable/>
         </div>
       </div>
