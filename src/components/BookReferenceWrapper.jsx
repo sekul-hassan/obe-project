@@ -8,7 +8,6 @@ import {BookReference} from "./BookReference";
 uuidv4()
 
 export const BookReferenceWrapper = () => {
-
     const [bookReferences, setBookReferences] = useState([])
     const addBookReference = (name, author, publisher, year, edition)=>  {
         setBookReferences([...bookReferences, {id: uuidv4(), name: name, author: author, publisher: publisher, year: year, edition: edition, completed: false, isEditing: false}])

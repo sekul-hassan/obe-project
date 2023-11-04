@@ -109,6 +109,11 @@ export const Sidebar = () => {
                               <span className="d-none d-sm-inline">Reference Books</span>
                           </Link>
                       </li>
+                      <li className="nav-item w-100 text-center">
+                          <Link to='/table' className="nav-link align-middle px-0">
+                              <span className="d-none d-sm-inline">Outline Table</span>
+                          </Link>
+                      </li>
                       
                       
                   </ul>
